@@ -1,0 +1,21 @@
+{
+  "name": "api-integration-builder-agent-skill",
+  "description": "API Integration Builder Agent Skill. Parses raw markdown endpoint specifications and generates clean, reusable Python client wrappers complete with robust retry decorators.",
+  "version": "1.0.0",
+  "author": "alphaparkinc",
+  "inputs": {
+    "api_spec": {
+      "type": "string"
+    },
+    "default_timeout": {
+      "type": "integer",
+      "default": 10
+    }
+  },
+  "outputs": {
+    "client_wrapper_code": {
+      "type": "string"
+    }
+  },
+  "prompt": "You are an API integration engineer agent. Your task is to process incoming markdown documentation of REST API endpoints, extract parameters, and draft a high-quality, production-ready Python client file with requests and retries."
+}
