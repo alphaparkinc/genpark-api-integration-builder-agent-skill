@@ -1,4 +1,4 @@
-# api-integration-builder-agent-skill
+# genpark-api-integration-builder-agent-skill
 
 > **GenPark AI Agent Skill** -- # API Integration Builder Agent Skill
 
