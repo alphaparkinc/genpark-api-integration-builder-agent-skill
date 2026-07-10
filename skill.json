@@ -1,5 +1,5 @@
 {
-  "name": "api-integration-builder-agent-skill",
+  "name": "genpark-api-integration-builder-agent-skill",
   "description": "GenPark AI Agent Skill - API Integration Builder Agent Skill. Parses raw markdown endpoint specifications and generates clean, reusable Python client wrappers complete with robust retry decorators.",
   "version": "1.0.0",
   "author": "genpark",
